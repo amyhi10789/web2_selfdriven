@@ -5,5 +5,5 @@ async function getWeather() {
     const data = await response.json();
 
     document.getElementById("result").innerHTML =
-        `Temperature: ${data.main?.temp} °C`;
+        `Temperature: ${data.main?.temp} °F`;
 }
